@@ -10,8 +10,10 @@ function Redux() {
     const name = useSelector(state => state)
 
     const handlerClick = () =>{
-      dispatch()
-    }
+      dispatch({
+      type: "change",
+      });
+    };
 
   return(
     <>
